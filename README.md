@@ -15,11 +15,9 @@ The required repositories are in "package.json" file.
 In order to run Fourth (4.) test case, we need chai-sorted dependency. Before running this test case please: 
 
 - RUN "npm i chai-sorted" in Terminal
--  
-
-
-
-
+- In support/index.js add:
+  const chaiSorted = require('chai-sorted');
+  chai.use(chaiSorted); 
 
 Thanks.
 
