@@ -16,8 +16,9 @@ In order to run Fourth (4.) test case, we need chai-sorted dependency. Before ru
 
 - RUN "npm i chai-sorted" in Terminal
 - In support/index.js add:
-  const chaiSorted = require('chai-sorted');
-  chai.use(chaiSorted); 
+
+const chaiSorted = require('chai-sorted');
+chai.use(chaiSorted); 
 
 Thanks.
 
